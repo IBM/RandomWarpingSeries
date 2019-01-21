@@ -33,6 +33,7 @@ To generate the RWS and use RWS for time-series claddification or clustering tas
     The testing result on different data splits will be saved. 
 
 (5) To generate RWS embedding only, please run this code rws_GenFea_example.m on single-variate time-series and rws_GenFea_example_mulvar.m on multi-variate time-series. <br/> 
+
 Note that there are no default numbers for the hyperparameters DMax, sigma. You should searching for the best numbers before generating RWS time-series embeddings for your applications. In general, the larger the parameter R is, the better quality of embedding is. 
 
 
