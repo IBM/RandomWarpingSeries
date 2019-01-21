@@ -21,7 +21,7 @@ Note that, in order to achieve the best performance, the hyperparameters DMax, s
 
 To generate the RWS and use RWS for time-series claddification or clustering tasks, you need:
 
-(1) If you use linux and Mac, you should be fine to skip compiling MEX for DTW, LibLinear, and LibSVM. Otherwise, you need to download them form the above links and compile them in their Matlab folders. Then you need copy these MEX files into the utilities folder.
+(1) If you use linux and Mac, you should be fine to skip compiling MEX for DTW, LibLinear, and LibSVM. Otherwise, you need to download them from the above links and compile them in their Matlab folders. Then you need copy these MEX files into the utilities folder.
 
 (2) Open Matlab terminal console and run rws_gridsearch_CV.m on single-variate time-series for performing K-fold cross validation for searching good hyperparameters 
     The RWS embeddings that performs the best on the dev data will be saved.
